@@ -91,11 +91,11 @@ header {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    /*transform: scale(0);*/
+    transform: scale(0);
     transition: transform .5s ease, height .2s ease;
 }
 
-.wapper .active-popup {
+.wrapper.active-popup{
     transform: scale(1);
 }
 

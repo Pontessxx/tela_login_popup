@@ -237,3 +237,49 @@ header {
 .login-register p a:hover{
     text-decoration: underline;
 }
+
+
+.form-box.LoginAprov {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    width: 100%; /* Set the width to 100% */
+    height: 440px;
+    background: transparent;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden; /* Change overflow to hidden */
+    transition: transform .18s ease;
+}
+.form-box.LoginAprov ion-icon{
+    font-size: 2rem;
+    color: #162938;
+}
+.form-box.LoginAprov h3{
+    color: #162938;
+}
+.form-box.LoginAprov span{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.form-box.LoginAprov a{
+    background-color: #162938;
+    border-radius: 10vh;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.form-box.LoginAprov a ion-icon{
+    margin-right: 10px;
+    color: #fff;
+}
